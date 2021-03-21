@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="lolzapi",
+    name="lztapi",
     version="0.0.1",
     author="infqq",
     description="Tool for lolz.guru",
