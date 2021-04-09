@@ -27,3 +27,10 @@ print(api.userfind('InfinityJQ'))
 - threads
 - profilePosts
 - posts
+- conversations
+- threadInfo
+- conversation
+- notifications
+- pages
+- pagesById
+- new_post
