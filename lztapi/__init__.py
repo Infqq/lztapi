@@ -8,7 +8,7 @@ class lztapi:
                 
                 self._api_token = api_token
 
-        def user_find(
+        def userfind(
                 self, username="", user_email=""):
                 
                 response = requests.get(url=f"https://lolz.guru/api/index.php?users/find&username={username}&user_email={user_email}").json()
