@@ -3,8 +3,8 @@ import requests
 
 class Lzt:
         def __init__(
-                self, api_token
-                ) -> str:
+                self, api_token = ""
+                ):
                 
                 self._api_token = api_token
 
