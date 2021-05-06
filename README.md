@@ -15,9 +15,9 @@
 ### Пример использования
 
 ```python
-from lztapi import lztapi
+from lztapi import Lzt
 
-api = lztapi("token")
+api = Lzt("token")
 
 print(api.userfind('InfinityJQ'))
 ```
