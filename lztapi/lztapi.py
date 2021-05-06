@@ -1,7 +1,7 @@
 import requests
 
 
-class lztapi:
+class Lzt:
         def __init__(
                 self, api_token
                 ) -> str:
