@@ -14,7 +14,7 @@ class Lzt:
         def userfind(
                 self, username="", user_email=""):
                 
-                r = self._self._s.get(url=f"https://lolz.guru/api/index.php?users/find&username={username}&user_email={user_email}").json()
+                r = self._s.get(url=f"https://lolz.guru/api/index.php?users/find&username={username}&user_email={user_email}").json()
                 return r
         
         def threads(
